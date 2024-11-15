@@ -1,0 +1,61 @@
+site_name: SmoothWAN
+repo_url: https://github.com/SmoothWAN/SmoothWAN
+repo_name: SmoothWAN
+theme:
+  name: material
+  logo: assets/logo.png
+  features:
+    - navigation.instant
+  icon:
+    repo: fontawesome/brands/github-alt
+  favicon: assets/logo.png
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - attr_list
+
+nav:
+  - Overview: 'index.md'
+  - Features: 'features.md'
+  - Downloads: "https://github.com/TalalMash/SmoothWAN/releases"
+  - 'Quick Setup':
+    - 'GL.iNet (Easiest)': 'setup-glinet.md'
+    - 'Raspberry Pi 4 or PC': 'setup-pi4-others.md'
+  - Discussions: "https://smoothwan.discourse.group"
+  - Tips & Troubleshooting: 'tips.md' 
+  - 'Additional Configurations':
+    - 'Tailscale' : 'tail.md'
+    - 'AdGuard Home' : 'adg.md'
+    - 'VPN over VPN' : 'vpn.md'
+    - 'Change WAN port to LAN' : 'lan.md'
+    - 'Change LAN port to WAN' : 'wan.md'
+    - 'Bypass clients to a specific WAN' : 'wanbyp.md'
+  - 'Advanced Configurations':
+    - 'Proxmox Example' : 'proxmox.md'
+    - 'Install to internal drive': 'intinstall.md'
+    - 'Cheap unmanaged switch Multi-WAN using MACVLAN' : 'macvlan.md'
+    - 'Equal bandwidth distribution to connected clients' : 'hostqos.md'
+  - 'Device Specific Documents':
+    - 'Flint' : 'flint.md'
+    - 'Slate AX': 'slate.md'
+    - 'Raspberry Pi 4': 'rpi4.md'
+    - 'Tested Hardware': 'tsthw.md'
+    - 'Wi-Fi, modems, and tethering devices': 'modemtethr.md'
+  - Self-host Single Function:
+    - Engarde: 'engarde.md'
+    - TinyFEC: 'tinyfec.md'
+  - Development Notes: 'devl.md'
+  - FAQ: 'faq.md'
+  - Contact: 'contact.md'
+  - Credits & Donation: 'sponsors.md'
