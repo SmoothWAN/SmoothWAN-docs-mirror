@@ -28,7 +28,7 @@ markdown_extensions:
 nav:
   - Overview: 'index.md'
   - Features: 'features.md'
-  - Downloads: "https://github.com/TalalMash/SmoothWAN/releases"
+  - Downloads: "https://smoothwan.github.io/SmoothWAN-forum-archive/smoothwan.discourse.group/"
   - 'Quick Setup':
     - 'GL.iNet (Easiest)': 'setup-glinet.md'
     - 'Raspberry Pi 4 or PC': 'setup-pi4-others.md'
